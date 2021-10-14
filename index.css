@@ -1,40 +1,15 @@
-/* CSS Reset */
-/* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+
+
+#external {
+	color: #e3934d;
 }
 
-body{
-	font-family: 'Open Sans', sans-serif;
+* {
+
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif
 }
 
-nav {
-	padding: 0.8rem;
-	/* 
-	padding-top: ;
-	padding-bottom: ;
-	padding-left: ;
-	padding-right: ;
-	 *
-	 margin-bottom: 2rem;
-	 border-bottom: 1px solid gray;
-	 list-style-type: none;
-}
 
-/* nav .nav, nav .nav-logo{
-	margin: 0.5rem;
-	display: inline;
-}
-*/
-/* intro section */
-/*#intro {
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
 /*
 .header{
 	text-align: center;
@@ -60,14 +35,6 @@ nav {
 	padding-bottom: 3rem;
 }
 
-#succeed-info h2{
-	margin-bottom: 1rem;
-}
-
-#succeed-info h3{
-	text-align: center;
-	margin-bottom: 1rem;
-}
 
 #succeed-info .card{
 	display: inline-block;
@@ -77,22 +44,5 @@ nav {
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 }
-
-/*
-	References: 
-		CSS Box Model:
-			w3schools
-				https://www.w3schools.com/css/css_boxmodel.asp
-			MDN Web Docs
-				https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
-			CSS Tricks
-				https://css-tricks.com/the-css-box-model/
-		CSS Box Model Diagram
-			Google Chrome Browser
-				https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png
-			Free Code Camp
-				https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png
-			CSS Box Sizing
-				https://www.w3schools.com/css/css3_box-sizing.asp
 
 */
