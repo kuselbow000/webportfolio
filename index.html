@@ -35,7 +35,7 @@
         <a class=" text-light nav-link" href="#typical">A TYPICAL NOT-SO-TYPICAL LIST</a>
       </li>
         <li class="nav-item">
-        <a class=" text-light nav-link" href="#movie">DID YOU KNOW?</a>
+        <button type="button" class=" btn btn-dark text-light" data-toggle="modal"	 data-target="#ModalLoginForm">Contact Us!</button>
       </li>
     </ul>
   </div>
@@ -245,7 +245,88 @@
 
 </div>
 		<!--  A Typical Not-So-Typical List Section End -->
-	
+	<!-- Start modal form -->
+
+<!-- Modal HTML Markup -->
+<div id="ModalLoginForm" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Contact us!</h3>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">Fullname</label>
+                        <div>
+                            <input type="name" placeholder="Juan Dela Cruz" class="form-control input-lg" name="name" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">E-mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" placeholder="juan@example.com" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Contact Number</label>
+                        <div>
+                            <input type="number" class="form-control input-lg" name="number" placeholder="0999 (000) 0000">
+                        </div>
+                    </div>
+                     <div class="form-group">
+                        <label class="control-label">Suggestions</label>
+                        <div>
+                            <input type="name" placeholder="We appreciate any of your suggestion" class="form-control input-lg" name="name" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember"> Remember Me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="button" data-toggle="modal" data-target="#ModalLogin" class="btn btn-success"> Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- HAHAHAHAH -->
+<!-- Modal HTML Markup -->
+<div id="ModalLogin" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Thank you!</h3>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                     <div class="form-group">
+                        <p>This is just a sample form, but we appreciate your time!</p>
+                    </div>
+
+                    <div class="form-group">
+                        <div>
+                            <button type="close" class="btn btn-success">Close</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- HAHAHAHHA -->
+	<!-- End modal form -->
 
 
 <div class="bg-muted mt-5">
