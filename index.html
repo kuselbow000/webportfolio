@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 
-	<title>CSS Box Model and Flexbox Layouting</title>
+	<title>Mark Carlo R. Elbo</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 
 <body>
 		<!-- Nav Bar Section Start -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar  fixed-top navbar-expand-lg navbar-dark" style="background-color: black" >
   <a class="navbar-brand" href="#" ><strong>Mark Carlo Elbo</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
         <a class=" text-light nav-link" href="#typical">A TYPICAL NOT-SO-TYPICAL LIST</a>
       </li>
         <li class="nav-item">
-        <button type="button" class=" btn btn-dark text-light" data-toggle="modal"	 data-target="#ModalLoginForm">Contact Us!</button>
+        <button type="button" style="	background-color: black" class=" btn btn-dark text-light" data-toggle="modal"	 data-target="#ModalLoginForm">Contact Us!</button>
       </li>
     </ul>
   </div>
@@ -48,7 +48,6 @@
 		<!--  Introduction and Profile Section  Start-->
 
 					<div class="container-fluid bg-light text-light min-vh-100 mt-40 p-md-5" style="background-image: url('https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg')" id="justme">
-	
 						<img class="mt-5 rounded-circle" src="./images/Markus00.jpg" width="125">
 						<h1 class="mt-5">A Typical Not-So-Typical List</h1>
 						<h3>by Mark Carlo Elbo</h3>
@@ -56,8 +55,8 @@
 							<div class="offset-md-2 col-md-8">
 								<small class="text-white">Hello! Kumusta?</small>
 								<p>"Markus" a Full-Stack Developer Student and a Corporate Recruiter in a Technology Solutions Company.</p>
-								<small class="mr-1">Email: <em>markuselbow07@gmail.com |</em></small>
-								<small class="ml-1">Contact Number: <em>+63977 (471) 0690 </em></small>
+								<small class="mr-1">Email: <em>markuselbow07@gmail.com|</em></small>
+								<small class="ml-1">Contact Number:<em>+63977 (471) 0690 </em></small>
 							</div>
 						</div>
 					</div>
@@ -66,37 +65,39 @@
 		<!--  Introduction and Profile Section End -->
 
 					<!-- Portfolio Section Start -->
-					<div class="bg-dark text-light min-vh-100 p-5" id="portfolio">
+					<div class="bg-dark mb-0 text-light min-vh-100 p-3" style="	background-image: url('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');" id="portfolio">
 
 
 							<h2 class="mt-3 mb-3">PORTFOLIO</h2>
 
 						<!-- Portfolio Container Start -->
 
-						<div class="d-lg-flex justify-content-center p-md-2">
+						<div class="d-lg-flex justify-content-center p-md-3">
 							<!-- Portfolio A start -->
-							<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 ">
+							<div class="card bg-light text-dark col-xl-4 mr-2 ml-2 mb-3 mb-xl-1 ">
 								<div class="card-body">
 									<img src="./images/pexels8.jpg" class="card-img-top">
 									<h5 class="card-title mt-3 text-center"><strong>Full-Stack Developer</strong></h5>
 									<h6 class="card-subtitle text-muted mb-2">Full-Stack Development</h6>
 									<p class="card-text">
-										Aspirant Developer that currently engaged in learning both Front-End and Back-End. Career in Tech Industry is  exponentially growing in a rapid rate since the technology is constantly innovating. Focus on building skilss and solid understading in Software Development.
+										Aspirant Developer that currently engaged in learning both Front-End and Back-End. Career in Tech Industry is  exponentially growing in a rapid rate since the technology is constantly innovating. Focus on building skills and solid understading in Software Development.
 									</p>
 									<h6 class="mb-xl-0"><em>Technologies:</em></h6>
-									<span class="badge badge-light">JavaScript</span>
-									<span class="badge badge-secondary">Node.js</span>
+									<span class="badge badge-primary">JavaScript</span>
+									<span class="badge badge-success">Node.js</span>
 									<span class="badge badge-dark">HTML</span>
-									<span class="badge badge-light">CSS</span>
-									<span class="badge badge-secondary">React.js</span>
+									<span class="badge badge-primary">CSS</span>
+									<span class="badge badge-success">React.js</span>
 									<span class="badge badge-dark">MongoDB</span>
+									<span class="badge badge-primary">API</span>
+									<span class="badge badge-success">Java</span>
 								</div>
 							</div>
 							<!-- Portfolio A End -->
 
 							<!-- Portfolio B Start -->
 
-							<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 ml-xl-5">
+							<div class="card bg-light text-dark mr-2 ml-2 col-xl-4 mb-3 mb-xl-1">
 								<div class="card-body">
 									<img src="./images/pexels9.JPG" class="card-img-top">
 									<h5 class="card-title mt-3 text-center"><strong>Markus</strong></h5>
@@ -108,36 +109,36 @@
 										Independent-minded, non-conformist, rights activist, feminist and a typical young Tito with a visible traits of a Gen Z. Promoting healthy conversations about political and social topics. A mental-health advocate.
 									</p>
 									<h6 class="mb-xl-0"><em>Personality traits:</em></h6>
-									<span class="badge badge-light">Introverted</span>
+									<span class="badge badge-primary">Introverted</span>
 									<span class="badge badge-secondary">Intutive</span>
 									<span class="badge badge-dark">Thinking</span>
-									<span class="badge badge-light">Judging</span>
+									<span class="badge badge-primary">Judging</span>
 
 									<h6 class="mb-xl-0"><em>Interests:</em></h6>
-									<span class="badge badge-light">Cooking</span>
+									<span class="badge badge-primary">Cooking</span>
 									<span class="badge badge-secondary">Karaoke</span>
 									<span class="badge badge-dark">Geography</span>
-									<span class="badge badge-light">Social Issues</span>						
+									<span class="badge badge-primary">Social Issues</span>						
 								</div>
 							</div>
 							<!-- Portfolio B End -->
 
 							<!-- Portfolio C Start -->
 
-							<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 ml-xl-5">
+							<div class="card bg-light text-dark col-xl-4 mb-3 mb-xl-1 mr-2 ml-2">
 								<div class="card-body">
 									<img src="./images/pexels7.jpg" class="card-img-top">
 									<h5 class="card-title mt-3 text-center"><strong>Recruiter</strong></h5>
 									<h6 class="card-subtitle text-muted mb-2">Full-Cycle IT Recruitment</h6>
 									<p class="card-text">
-										An HR Professional who transforms the Recruitment. Working for three years, engaged in IT Company and Recruitment. Exposed in Technical Requisitions with a strength in Java Developers, Front-end Developers, QA, DBAs, C#.net Developers, and Infrastructure positions from Junior to Architect level. Implement best practices in TA, Multiple Sourcing Techniques, and Leadership.
+										An HR Professional who transforms the Recruitment. Working for three years, engaged in IT Company and Recruitment. Exposed in Technical Requisitions with a strength in Developers, QA, DBAs, and Infrastructure positions from Junior to Architect level. Implement best practices in TA, Multiple Sourcing Techniques, and Leadership.
 									</p>
 									<h6 class="mb-xl-0"><em>Skills:</em></h6>
-									<span class="badge badge-light">Technical Recruiting</span>
+									<span class="badge badge-primary">Technical Recruiting</span>
 									<span class="badge badge-secondary">Negotiation</span>
 									<span class="badge badge-dark">Stakeholder Management</span>
-									<span class="badge badge-light">Sourcing</span>
-									<span class="badge badge-secondary">Dark</span>
+									<span class="badge badge-primary">Sourcing</span>
+									<span class="badge badge-secondary">Interviewing</span>
 								</div>
 							</div>
 
@@ -153,12 +154,15 @@
 
 		<!--  A Typical Not-So-Typical List Section Start -->
  				
- 				<div class="ml-3 mt-3 mb-3 justify-content-center">  
+ 				<div class="justify-content-center text-white mt-0 mb-xl-0 min-vh-100" style="background-image: url('https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg')">  
 
- 					<h1 class="mt-3 mb-3" id="typical">A TYPICAL NOT-SO-TYPICAL LIST</h1>
- 					<div class="mt-3 mb-3">
+ 			
+ 					<div class="ml-1 mt-0 mb-2">
+
+
+ 					<h1 class="ml-2 mt-0 mb-2" id="typical">A TYPICAL NOT-SO-TYPICAL LIST</h1>
 					
- 						<h3 class="mt-1 mb-1">ITypicaly Typical not-so?</h3>
+ 						<h3 class="ml-1 mt-1 mb-1">ITypicaly Typical not-so?</h3>
 
  						<ul>
  						<li>Code an application using Node.js, Java, React.js</li>
@@ -170,8 +174,8 @@
 
  					</div>
 
- 					<div class="mt-3 mb-3">
- 						<h3 class="mt-1 mb-1">To do list if i have a ton of money</h3>
+ 					<div class="ml-1 mt-2 mb-2">
+ 						<h3 class="ml-1 mt-1 mb-1">To do list if i have a ton of money</h3>
  						<ul>
  						<li>Get 1,000 deserving students for college schorship</li>
  						<li>Spends a whole day in a nursing home</li>	
@@ -194,8 +198,8 @@
  						</ul>
  					</div>
 
- 					<div class="mt-3 mb-3 ">
- 						<h3 class="mt-1 mb-1">List for not-a-longtime reader</h3>
+ 					<div class="ml-1 mt-2 mb-2 ">
+ 						<h3 class="ml-1 mt-1 mb-1">List for not-a-longtime reader</h3>
  						<ul>
  						<li>Factulness</li>
  						<li>The Alchemist</li>
@@ -204,8 +208,8 @@
  						</ul>
  					</div>
 
- 					 <div class="mt-3 mb-3">
- 						<h3 class="mt-1 mb-1">A Not-so-typical Series Suggestions</h3>
+ 					 <div class="ml-1 mt-2 mb-2">
+ 						<h3 class="ml-1 mt-1 mb-1">A Not-so-typical Series Suggestions</h3>
  						<ul>
  						<li>American Crime Story: Assassination of Gianni Versace</li>
  						<li>End of the fvcking world</li>
@@ -216,8 +220,8 @@
  						</ul>
  					</div>
 
- 					 <div class="mt-3 mb-3 ">
- 						<h3 class="mt-1 mb-1">A Not-so-typical Movie Suggestions for atypical movie suggestion searcher</h3>
+ 					 <div class="ml-1 mt-2 mb-2 ">
+ 						<h3 class="ml-1 mt-1 mb-1">A Not-so-typical Movie Suggestions for atypical movie suggestion searcher</h3>
  						<ul>
  						<li>A Ghost Story</li>
  						<li>Arrival</li>
@@ -231,17 +235,33 @@
  					</div>
  					<!-- aaaa -->
 
-				<div class="btn-group">
+				<div class="btn-group mb-2 mr-3 ml-2">
   				<button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    			Continue
+    			Connect!
   				</button>
   				<div class="dropdown-menu">
-    					<a class="dropdown-item" href="#">Yes</a>
-    					<a class="dropdown-item" href="#">No</a>
-    					<a class="dropdown-item" href="#">Maybe?</a>
-				</div>
+	  					<a class="dropdown-item" href="#">Thank you</a>
+    					</div>
  					<!-- sss -->
  				</div>
+
+ 				<span class=" d-inline-block mt-2 mb-3 mr-1 bg-muted" >
+					<a class="d-inline-block align-left bg-light rounded-circle" target="_blank" href="https://www.linkedin.com/in/mark-elbo-5934bb177/">
+ 					<img src="./images/linkedin4.png" width="50" height="50">
+					</a>
+				</span>
+
+			<span class=" d-inline-block mt-2 mb-3 mr-1 bg-muted ">
+					<a class="d-inline-block align-left bg-light rounded-circle" target="_blank" href="https://www.instagram.com/markuselbow/">
+ 					<img src="./images/instagram6.png"  width="50" height="50">
+					</a>
+			</span>
+			<span class="d-inline-block mr-2 mb-3 mr-1 bg-muted">
+					<a class="d-inline-block align-left bg-light rounded-circle" target="_blank" href="https://twitter.com/Keepelbow/">
+ 					<img src="./images/twitter6.png"  width="50" height="50" >
+					</a>
+			</span>
+
 
 </div>
 		<!--  A Typical Not-So-Typical List Section End -->
@@ -328,29 +348,13 @@
 <!-- HAHAHAHHA -->
 	<!-- End modal form -->
 
+<!--  
+<div class="text-white mr-auto" style="background-image: url('https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg')">
 
-<div class="bg-muted mt-5">
 
 
-	<h6 class="mt-3 mb-3 text-dark ">Connect and Follow:</h6>
 
-			<span class="d-lg-flex d-inline-block">
-					<a class="d-inline-block align-bottom align-center" target="_blank" href="https://www.linkedin.com/in/mark-elbo-5934bb177/">
- 					<img src="./images/linkedin7.png" width="60" height="60">
-					</a>
-				</span>
-
-			<span class="d-lg-flex d-inline-block">
-					<a class="d-inline-block align-center align-bottom" target="_blank" href="https://www.instagram.com/markuselbow/">
- 					<img src="./images/instagram7.png" width="60" height="60">
-					</a>
-			</span>
-			<span class="d-lg-flex d-inline-block">
-					<a class="d-inline-block align-center align-bottom" target="_blank" href="https://twitter.com/Keepelbow/">
- 					<img src="./images/twitter7.png" width="60" height="60" >
-					</a>
-			</span>
-	</div>
+	</div>  -->
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
